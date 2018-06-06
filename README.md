@@ -6,22 +6,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Creator: Prakhar Dixit
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To start project:
+ Run npm start or ng serve
 
-## Build
+ The application contains 4 tabs.
+ 1st tab provides list of customers.
+ 2nd Tab provides list of orders.
+ 3rd tab provides full details of customers.
+ 3rd tab provides full details of orders.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ Above each list and tables there is a input field which filters out details according to placeholder give in it.
+ E.g Contact Name or Id
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ Next to it Button Sort which sort the list and details descending or ascending upon click.
+ Pagination upto 7 list per page is implemented successfully. 
